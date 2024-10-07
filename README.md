@@ -1,22 +1,36 @@
-# EXOEXPLORER_FinalAPP
-This app features a main interface where users can access three key modes. First, a 3D simulation based on NASA's exoplanet database, accurately depicting stars as mentioned on the website. Additionally, there is a section called ExoGame, which includes a constellation memory game and a future integration of a story mode—a 2D space adventure developed in Unity. From the main screen, there is also an Augmented Reality (AR) mode, which we were unable to integrate fully within the time constraints, but which will use the original simulation to render stars and draw constellations in 3D.
-
-We are ExoExplorer, participating in the NASA Space Apps Challenge 2024. Thank you!
 
 
+# EXOEXPLORER: Augmented FINAL APP
+
+**EXOEXPLORER** is an innovative space exploration app designed for the [NASA Space Apps Challenge 2024](https://www.spaceappschallenge.org/). This app provides a main interface with three key modes:
+
+1. **3D Simulation**  
+   A simulation based on NASA's exoplanet database that accurately depicts stars as listed on their website. Users can explore a realistic 3D space environment and navigate through stars and constellations.
+
+2. **ExoGame**  
+   The ExoGame mode includes a constellation memory game and, in future updates, will feature a story mode. The story mode is a 2D space adventure developed in Unity, offering an engaging storyline set in outer space.
+
+3. **Augmented Reality (AR) Mode**  
+   The AR mode will render stars and draw constellations in 3D based on the original simulation. While time constraints prevented full integration, this feature is planned for future updates to enhance immersive exploration.
+
+We are **ExoExplorer**—thank you for exploring with us!
+
+## Repositories
 
 1. **[EXOEXPLORER: Augmented Reality Application](https://github.com/paco-vive/EXOEXPLORER_AumentedRealityAPP)**  
    Explore the universe in 3D using augmented reality, allowing you to view the sky from the perspective of selected stars. Built with ARKit, this app provides a unique immersive space experience.
 
 2. **[EXOEXPLORER: Frontend Introduction](https://github.com/paco-vive/EXOEXPLORER_IntroductionFrontend)**  
-   The foundational frontend of EXOEXPLORER. This repository establishes the initial interface structure, optimized for an intuitive and engaging user experience.
+   Establishes the initial structure of the frontend, optimized for an intuitive and engaging user experience.
 
 3. **[EXOEXPLORER: User Frontend and Database](https://github.com/paco-vive/EXOEXPLORER_UserFrontendDataBase)**  
-   This repository combines user frontend development and database integration for storing space-related data, ensuring smooth and personalized navigation.
+   Combines frontend development and database integration to store space-related data, ensuring smooth and personalized navigation.
 
 4. **[EXOEXPLORER: Video Games](https://github.com/paco-vive/EXOEXPLORER_VideoGames)**  
-   An interactive gaming experience in the EXOEXPLORER universe. This component includes gamification elements to make space exploration engaging and entertaining.
+   Adds gamification elements to enhance space exploration with an interactive gaming experience.
 
 5. **[EXOEXPLORER: Wireframe](https://github.com/paco-vive/EXOEXPLORER_WireFrame)**  
-   The visual layout and prototype of EXOEXPLORER. This repository outlines key interface elements and user flow, helping to structure the app’s navigation experience.
- 
+   Outlines key interface elements and user flow, structuring the app’s navigation experience effectively.
+
+--- 
+
