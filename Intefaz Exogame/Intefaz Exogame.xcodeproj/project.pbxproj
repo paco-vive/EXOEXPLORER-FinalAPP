@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06053CCD2CB19EE800300D61 /* Intefaz_ExogameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06053CCC2CB19EE800300D61 /* Intefaz_ExogameApp.swift */; };
+		06053CCF2CB19EE800300D61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06053CCE2CB19EE800300D61 /* ContentView.swift */; };
+		06053CD12CB19EE800300D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06053CD02CB19EE800300D61 /* Assets.xcassets */; };
+		06053CD42CB19EE800300D61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06053CD32CB19EE800300D61 /* Preview Assets.xcassets */; };
+		06053CDE2CB19EE900300D61 /* Intefaz_ExogameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06053CDD2CB19EE900300D61 /* Intefaz_ExogameTests.swift */; };
+		06053CE82CB19EE900300D61 /* Intefaz_ExogameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06053CE72CB19EE900300D61 /* Intefaz_ExogameUITests.swift */; };
+		06053CEA2CB19EE900300D61 /* Intefaz_ExogameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06053CE92CB19EE900300D61 /* Intefaz_ExogameUITestsLaunchTests.swift */; };
+		06053CF72CB1A08500300D61 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06053CF62CB1A08500300D61 /* StoryView.swift */; };
+		06053CF92CB1A12800300D61 /* LevelSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06053CF82CB1A12800300D61 /* LevelSelectionView.swift */; };
+		06053CFB2CB1A15E00300D61 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06053CFA2CB1A15E00300D61 /* SettingsView.swift */; };
+		06053D032CB2023F00300D61 /* MemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06053D022CB2023F00300D61 /* MemoryGameView.swift */; };
+		06053D052CB2074600300D61 /* ConstellationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06053D042CB2074600300D61 /* ConstellationList.swift */; };
+		06053D072CB2089600300D61 /* DefinitionOfStars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06053D062CB2089600300D61 /* DefinitionOfStars.swift */; };
+		06053D092CB2197A00300D61 /* CongratulationsGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06053D082CB2197A00300D61 /* CongratulationsGameView.swift */; };
+		06053D0B2CB2DDB300300D61 /* LevelSelectionView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06053D0A2CB2DDB300300D61 /* LevelSelectionView2.swift */; };
+		06AA0A472CB349E600295789 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AA0A462CB349E600295789 /* Persistence.swift */; };
+		06AA0A492CB34A2800295789 /* pantallaPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AA0A482CB34A2800295789 /* pantallaPrincipal.swift */; };
+		06AA0A4B2CB3580200295789 /* Exoplanetas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AA0A4A2CB3580200295789 /* Exoplanetas.swift */; };
+		06AA0A4D2CB3581000295789 /* datos2.csv in Resources */ = {isa = PBXBuildFile; fileRef = 06AA0A4C2CB3581000295789 /* datos2.csv */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06053CDA2CB19EE900300D61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06053CC12CB19EE800300D61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06053CC82CB19EE800300D61;
+			remoteInfo = "Intefaz Exogame";
+		};
+		06053CE42CB19EE900300D61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06053CC12CB19EE800300D61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06053CC82CB19EE800300D61;
+			remoteInfo = "Intefaz Exogame";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06053CC92CB19EE800300D61 /* Intefaz Exogame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intefaz Exogame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06053CCC2CB19EE800300D61 /* Intefaz_ExogameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intefaz_ExogameApp.swift; sourceTree = "<group>"; };
+		06053CCE2CB19EE800300D61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		06053CD02CB19EE800300D61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06053CD32CB19EE800300D61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		06053CD92CB19EE900300D61 /* Intefaz ExogameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intefaz ExogameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06053CDD2CB19EE900300D61 /* Intefaz_ExogameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intefaz_ExogameTests.swift; sourceTree = "<group>"; };
+		06053CE32CB19EE900300D61 /* Intefaz ExogameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Intefaz ExogameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06053CE72CB19EE900300D61 /* Intefaz_ExogameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intefaz_ExogameUITests.swift; sourceTree = "<group>"; };
+		06053CE92CB19EE900300D61 /* Intefaz_ExogameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intefaz_ExogameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		06053CF62CB1A08500300D61 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		06053CF82CB1A12800300D61 /* LevelSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSelectionView.swift; sourceTree = "<group>"; };
+		06053CFA2CB1A15E00300D61 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		06053D022CB2023F00300D61 /* MemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameView.swift; sourceTree = "<group>"; };
+		06053D042CB2074600300D61 /* ConstellationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstellationList.swift; sourceTree = "<group>"; };
+		06053D062CB2089600300D61 /* DefinitionOfStars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionOfStars.swift; sourceTree = "<group>"; };
+		06053D082CB2197A00300D61 /* CongratulationsGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratulationsGameView.swift; sourceTree = "<group>"; };
+		06053D0A2CB2DDB300300D61 /* LevelSelectionView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSelectionView2.swift; sourceTree = "<group>"; };
+		06AA0A462CB349E600295789 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		06AA0A482CB34A2800295789 /* pantallaPrincipal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pantallaPrincipal.swift; sourceTree = "<group>"; };
+		06AA0A4A2CB3580200295789 /* Exoplanetas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exoplanetas.swift; sourceTree = "<group>"; };
+		06AA0A4C2CB3581000295789 /* datos2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = datos2.csv; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06053CC62CB19EE800300D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06053CD62CB19EE900300D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06053CE02CB19EE900300D61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06053CC02CB19EE800300D61 = {
+			isa = PBXGroup;
+			children = (
+				06053CCB2CB19EE800300D61 /* Intefaz Exogame */,
+				06053CDC2CB19EE900300D61 /* Intefaz ExogameTests */,
+				06053CE62CB19EE900300D61 /* Intefaz ExogameUITests */,
+				06053CCA2CB19EE800300D61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06053CCA2CB19EE800300D61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06053CC92CB19EE800300D61 /* Intefaz Exogame.app */,
+				06053CD92CB19EE900300D61 /* Intefaz ExogameTests.xctest */,
+				06053CE32CB19EE900300D61 /* Intefaz ExogameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06053CCB2CB19EE800300D61 /* Intefaz Exogame */ = {
+			isa = PBXGroup;
+			children = (
+				06053CCC2CB19EE800300D61 /* Intefaz_ExogameApp.swift */,
+				06053CCE2CB19EE800300D61 /* ContentView.swift */,
+				06AA0A482CB34A2800295789 /* pantallaPrincipal.swift */,
+				06AA0A4A2CB3580200295789 /* Exoplanetas.swift */,
+				06AA0A4C2CB3581000295789 /* datos2.csv */,
+				06053CF62CB1A08500300D61 /* StoryView.swift */,
+				06053CD02CB19EE800300D61 /* Assets.xcassets */,
+				06053CD22CB19EE800300D61 /* Preview Content */,
+				06053CF82CB1A12800300D61 /* LevelSelectionView.swift */,
+				06053CFA2CB1A15E00300D61 /* SettingsView.swift */,
+				06053D022CB2023F00300D61 /* MemoryGameView.swift */,
+				06053D042CB2074600300D61 /* ConstellationList.swift */,
+				06053D062CB2089600300D61 /* DefinitionOfStars.swift */,
+				06053D082CB2197A00300D61 /* CongratulationsGameView.swift */,
+				06053D0A2CB2DDB300300D61 /* LevelSelectionView2.swift */,
+				06AA0A462CB349E600295789 /* Persistence.swift */,
+			);
+			path = "Intefaz Exogame";
+			sourceTree = "<group>";
+		};
+		06053CD22CB19EE800300D61 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				06053CD32CB19EE800300D61 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		06053CDC2CB19EE900300D61 /* Intefaz ExogameTests */ = {
+			isa = PBXGroup;
+			children = (
+				06053CDD2CB19EE900300D61 /* Intefaz_ExogameTests.swift */,
+			);
+			path = "Intefaz ExogameTests";
+			sourceTree = "<group>";
+		};
+		06053CE62CB19EE900300D61 /* Intefaz ExogameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06053CE72CB19EE900300D61 /* Intefaz_ExogameUITests.swift */,
+				06053CE92CB19EE900300D61 /* Intefaz_ExogameUITestsLaunchTests.swift */,
+			);
+			path = "Intefaz ExogameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06053CC82CB19EE800300D61 /* Intefaz Exogame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06053CED2CB19EE900300D61 /* Build configuration list for PBXNativeTarget "Intefaz Exogame" */;
+			buildPhases = (
+				06053CC52CB19EE800300D61 /* Sources */,
+				06053CC62CB19EE800300D61 /* Frameworks */,
+				06053CC72CB19EE800300D61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Intefaz Exogame";
+			productName = "Intefaz Exogame";
+			productReference = 06053CC92CB19EE800300D61 /* Intefaz Exogame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06053CD82CB19EE900300D61 /* Intefaz ExogameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06053CF02CB19EE900300D61 /* Build configuration list for PBXNativeTarget "Intefaz ExogameTests" */;
+			buildPhases = (
+				06053CD52CB19EE900300D61 /* Sources */,
+				06053CD62CB19EE900300D61 /* Frameworks */,
+				06053CD72CB19EE900300D61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06053CDB2CB19EE900300D61 /* PBXTargetDependency */,
+			);
+			name = "Intefaz ExogameTests";
+			productName = "Intefaz ExogameTests";
+			productReference = 06053CD92CB19EE900300D61 /* Intefaz ExogameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06053CE22CB19EE900300D61 /* Intefaz ExogameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06053CF32CB19EE900300D61 /* Build configuration list for PBXNativeTarget "Intefaz ExogameUITests" */;
+			buildPhases = (
+				06053CDF2CB19EE900300D61 /* Sources */,
+				06053CE02CB19EE900300D61 /* Frameworks */,
+				06053CE12CB19EE900300D61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06053CE52CB19EE900300D61 /* PBXTargetDependency */,
+			);
+			name = "Intefaz ExogameUITests";
+			productName = "Intefaz ExogameUITests";
+			productReference = 06053CE32CB19EE900300D61 /* Intefaz ExogameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06053CC12CB19EE800300D61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					06053CC82CB19EE800300D61 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					06053CD82CB19EE900300D61 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 06053CC82CB19EE800300D61;
+					};
+					06053CE22CB19EE900300D61 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 06053CC82CB19EE800300D61;
+					};
+				};
+			};
+			buildConfigurationList = 06053CC42CB19EE800300D61 /* Build configuration list for PBXProject "Intefaz Exogame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06053CC02CB19EE800300D61;
+			productRefGroup = 06053CCA2CB19EE800300D61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06053CC82CB19EE800300D61 /* Intefaz Exogame */,
+				06053CD82CB19EE900300D61 /* Intefaz ExogameTests */,
+				06053CE22CB19EE900300D61 /* Intefaz ExogameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06053CC72CB19EE800300D61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06053CD42CB19EE800300D61 /* Preview Assets.xcassets in Resources */,
+				06AA0A4D2CB3581000295789 /* datos2.csv in Resources */,
+				06053CD12CB19EE800300D61 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06053CD72CB19EE900300D61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06053CE12CB19EE900300D61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06053CC52CB19EE800300D61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06AA0A472CB349E600295789 /* Persistence.swift in Sources */,
+				06053CFB2CB1A15E00300D61 /* SettingsView.swift in Sources */,
+				06053D072CB2089600300D61 /* DefinitionOfStars.swift in Sources */,
+				06053CF92CB1A12800300D61 /* LevelSelectionView.swift in Sources */,
+				06AA0A4B2CB3580200295789 /* Exoplanetas.swift in Sources */,
+				06053D032CB2023F00300D61 /* MemoryGameView.swift in Sources */,
+				06053D092CB2197A00300D61 /* CongratulationsGameView.swift in Sources */,
+				06053CF72CB1A08500300D61 /* StoryView.swift in Sources */,
+				06053CCF2CB19EE800300D61 /* ContentView.swift in Sources */,
+				06053D052CB2074600300D61 /* ConstellationList.swift in Sources */,
+				06AA0A492CB34A2800295789 /* pantallaPrincipal.swift in Sources */,
+				06053CCD2CB19EE800300D61 /* Intefaz_ExogameApp.swift in Sources */,
+				06053D0B2CB2DDB300300D61 /* LevelSelectionView2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06053CD52CB19EE900300D61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06053CDE2CB19EE900300D61 /* Intefaz_ExogameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06053CDF2CB19EE900300D61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06053CE82CB19EE900300D61 /* Intefaz_ExogameUITests.swift in Sources */,
+				06053CEA2CB19EE900300D61 /* Intefaz_ExogameUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06053CDB2CB19EE900300D61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06053CC82CB19EE800300D61 /* Intefaz Exogame */;
+			targetProxy = 06053CDA2CB19EE900300D61 /* PBXContainerItemProxy */;
+		};
+		06053CE52CB19EE900300D61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06053CC82CB19EE800300D61 /* Intefaz Exogame */;
+			targetProxy = 06053CE42CB19EE900300D61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06053CEB2CB19EE900300D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06053CEC2CB19EE900300D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06053CEE2CB19EE900300D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Intefaz Exogame/Preview Content\"";
+				DEVELOPMENT_TEAM = FVZXBFQ8RD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Exoexplorer;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UDLAP.Intefaz-Exogame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06053CEF2CB19EE900300D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Intefaz Exogame/Preview Content\"";
+				DEVELOPMENT_TEAM = FVZXBFQ8RD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Exoexplorer;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UDLAP.Intefaz-Exogame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		06053CF12CB19EE900300D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UDLAP.Intefaz-ExogameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intefaz Exogame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Intefaz Exogame";
+			};
+			name = Debug;
+		};
+		06053CF22CB19EE900300D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UDLAP.Intefaz-ExogameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intefaz Exogame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Intefaz Exogame";
+			};
+			name = Release;
+		};
+		06053CF42CB19EE900300D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UDLAP.Intefaz-ExogameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Intefaz Exogame";
+			};
+			name = Debug;
+		};
+		06053CF52CB19EE900300D61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UDLAP.Intefaz-ExogameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Intefaz Exogame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06053CC42CB19EE800300D61 /* Build configuration list for PBXProject "Intefaz Exogame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06053CEB2CB19EE900300D61 /* Debug */,
+				06053CEC2CB19EE900300D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06053CED2CB19EE900300D61 /* Build configuration list for PBXNativeTarget "Intefaz Exogame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06053CEE2CB19EE900300D61 /* Debug */,
+				06053CEF2CB19EE900300D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06053CF02CB19EE900300D61 /* Build configuration list for PBXNativeTarget "Intefaz ExogameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06053CF12CB19EE900300D61 /* Debug */,
+				06053CF22CB19EE900300D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06053CF32CB19EE900300D61 /* Build configuration list for PBXNativeTarget "Intefaz ExogameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06053CF42CB19EE900300D61 /* Debug */,
+				06053CF52CB19EE900300D61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06053CC12CB19EE800300D61 /* Project object */;
+}
