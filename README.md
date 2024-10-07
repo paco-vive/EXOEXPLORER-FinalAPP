@@ -1,6 +1,6 @@
 
 
-# EXOEXPLORER: Augmented FINAL APP
+# EXOEXPLORER: FINAL APP
 
 **EXOEXPLORER** is an innovative space exploration app designed for the [NASA Space Apps Challenge 2024](https://www.spaceappschallenge.org/). This app provides a main interface with three key modes:
 
